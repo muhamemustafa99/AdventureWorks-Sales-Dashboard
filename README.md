@@ -1,73 +1,89 @@
 # AdventureWorks-Sales-Dashboard
 
-An interactive Sales Analytics Dashboard built with Power BI, SQL Server, and DAX, focused on analyzing revenue trends, customer behavior, and product performance using the AdventureWorksDW2019 dataset.
+**🔍 Project Overview**
+A full end-to-end Sales Performance Analysis dashboard built using Power BI, SQL Server, and DAX, leveraging the AdventureWorksDW2019 dataset.
+The dashboard provides a business-ready view into sales, customer behavior, product-level insights, and performance tracking vs budget.
 
-🚀 Project Overview
-This project delivers a dynamic business intelligence solution that supports sales and operations decision-making. The dashboard visualizes key metrics such as order volume, total revenue, tax, and freight costs while enabling deep dives into customer and product trends.
+# 📌 What's Included
 
-🧠 Key Features
-3 Main Report Pages:
+**Sales Overview Page**
+KPIs: Total Revenue, Order Count, Freight, Tax
 
-Sales Overview: KPIs + Order/Revenue trends, Top 10 Products and Customers, status breakdowns.
+Order trends by date
 
-Customer Insights: Customer segmentation and sales impact.
+Status-based order distribution
 
-Product Insights: Performance by category, sales distribution, and profit contributions.
+Slicers for dynamic filtering (e.g., status, product, date)
 
-ETL & Modeling:
+**Orders Analysis Page**
+Revenue, tax, quantity by product
 
-Data cleansing and transformation in SQL Server and Power Query
+Visual comparisons using bar and pie charts
 
-Fact and dimension modeling using Star Schema: InternetSales, Customers, Products, Calendar, Status, Budget.
+Drill-through support for detailed insights
 
-Analytics & DAX Measures:
+**Order Details Page**
+Tabular view of all orders
 
-Budget vs. actual revenue
+Filters for Product, Status, and Date
 
-Cumulative trends (YTD, MTD)
+Full details combining Order, Product, and OrderDetail tables
 
-Customer and product segmentation
 
-Top N filtering with dynamic measures
 
-🛠 Tools & Technologies
-Power BI (Data Visualization)
+# 🛠️ Tools & Techniques
 
-SQL Server (Data Preparation & Queries)
+Power BI Desktop
 
-DAX (Analytical Measures)
+Power Query for data transformation (ETL)
 
-Power Query (ETL)
+DAX (Data Analysis Expressions)
 
-AdventureWorksDW2019 (Dataset)
+Visuals: Bar, Pie, Map, Card, Table
 
-📸 Screenshots
-Sales Overview	Tooltip Page	Raw Data	Data Model
+Relationships built using a clean schema model
 
-📁 Folder Structure
-scss
-Copy
-Edit
-📦 AdventureWorks-Sales-Dashboard
-├── 📁 PowerBI Files (.pbix)
-├── 📁 SQL Queries (ETL + Data Prep)
-├── 📁 Images (Screenshots for README/LinkedIn)
-├── 📄 README.md
-🔗 Live Preview
-🔒 Currently private or under development
-📌 Will add walkthrough video or dashboard interaction link soon.
+# 📂 Data Model (Schema)
 
-📚 Learning Objectives
-Master end-to-end dashboard design and storytelling
+This project uses a focused schema with four essential tables:
 
-Implement clean and reusable DAX code for analytical insights
+OrderDetail (Fact Table)
 
-Apply dimensional modeling (Star Schema) in a BI context
+Order (Dimension: order-level metadata)
 
-Practice best practices in Power BI layout and interactivity
+Product (Dimension)
 
-👤 Author
-Muhamed Mustafa
-🔗 LinkedIn
-💻 GitHub
+Status (Dimension: order state)
+<img width="1162" height="871" alt="image" src="https://github.com/user-attachments/assets/12fcf84f-26d6-41cf-bde5-0e48fb708218" />
 
+
+# 🔗 Live Dashboard
+
+🔗 View the Dashboard on Power BI (https://app.powerbi.com/groups/me/reports/7ae62053-3db4-411c-8ac2-69271b86282d/ReportSection?experience=power-bi)
+<img width="1463" height="857" alt="image" src="https://github.com/user-attachments/assets/1218881a-4e4e-4b78-a6e1-034e6b535cc2" />
+
+# 💡 Key Learnings
+
+Modeled sales analysis using only essential schema components
+
+Built DAX calculations for tax, freight, and total revenue
+
+Applied advanced filtering and drill-through navigation
+
+Enhanced interactivity with slicers, tooltips, and card KPIs
+
+## 👤 Author
+
+**Mohamed Mostafa Mogahed**  
+*BI / Data Analyst*  
+📧 muhamedmustafa9933@icloud.com  
+🌍 [LinkedIn Profile](https://www.linkedin.com/in/mohamedmostafa99)  
+💻 [GitHub](https://github.com/muhamemustafa99)
+
+# My Portfolio:  (https://mohamed5034.wordpress.com/about/)
+
+
+
+---
+
+Feel free to fork, explore, or reach out if you're interested in collaboration!
